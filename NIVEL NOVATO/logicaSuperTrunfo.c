@@ -114,6 +114,10 @@ int main() {
     float poderA = populacaoA + areaA + pibA + pontos_turisticosA + inversoDensiA;
     float poderB = populacaoB + areaB + pibB + pontos_turisticosB + inversoDensiB;
 
+    //exibição dos dados das cartas
+    printf("\nCarta A:\nEstado: %s\nCódigo: %s\nNome: %s\nPopulação: %lu\nÁrea: %f km²\nPIB: %f\nNúmero de pontos Turísticos: %d\nDensidade populacional: %.2f hab/km²\nPIB per capita: %.2f Reais\nSuper Poder: %f\n", estadoA, codigoA, nomeA, populacaoA, areaA, pibA, pontos_turisticosA, densidadePop1, PIBperC1, poderA);
+    printf("\nCarta B:\nEstado: %s\nCódigo: %s\nNome: %s\nPopulação: %lu\nÁrea: %f km²\nPIB: %f\nNúmero de pontos Turísticos: %d\nDensidade populacional: %.2f hab/km²\nPIB per capita: %.2f Reais\nSuper Poder: %f\n", estadoB, codigoB, nomeB, populacaoB, areaB, pibB, pontos_turisticosB, densidadePop2, PIBperC2, poderB);
+
     // Comparação de Cartas:
     printf("Comparação das cartas (Atributo: PIB)\n");
     printf("Carta 1- %s (%s): %f\n", nomeA, estadoA, pibA);
